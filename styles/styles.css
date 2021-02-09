@@ -1,0 +1,124 @@
+:root {/* CSS HEX */
+--rich-black-fogra-39: #000501ff;
+--shiny-shamrock: #73ab84ff;
+--medium-turquoise: #79c7c5ff;
+--powder-blue: #ade1e5ff;
+}
+
+
+body{
+    color: var(--rich-black-fogra-39);
+    font-family: 'Exo', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper {
+  box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    background-color: var(--medium-turquoise);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0px;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    display: flex;
+    
+    align-items: center;
+    text-decoration: none;
+    color: var(--rich-black-fogra-39);
+}
+
+.logo {
+    height: 30px;
+    padding-right: 5px;
+}
+
+.hero {
+    position: relative;
+    width:100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hero-bck {
+    background-image:url('../images/old-books.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+main{
+    grid-area: main;
+}
+
+.about {
+    background-color: var(--powder-blue);
+    color:var(--rich-black-fogra-39);
+    padding: 50px 40px;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--shiny-shamrock);
+    color: var(--powder-blue);
+    padding: 15px;
+    grid-area: footer;
+}
+
+
+
+@media (min-width: 1400px){
+    .hero {
+        height: 50vh;
+    }
+    nav{
+        font-size: 1.4rem;
+    }
+    .about{
+        font-size: 1.5rem;
+        padding: 80px 40px;
+    }
+}
