@@ -1,6 +1,7 @@
 :root {/* CSS HEX */
 --rich-black-fogra-39: #000501ff;
 --shiny-shamrock: #73ab84ff;
+--shiny-shamrock-var: rgb(113, 139, 121);
 --medium-turquoise: #79c7c5ff;
 --powder-blue: #ade1e5ff;
 }
@@ -59,6 +60,13 @@ nav a {
     align-items: center;
     text-decoration: none;
     color: var(--rich-black-fogra-39);
+}
+
+.about a {
+    color: var(--shiny-shamrock-var);
+}
+.about a:hover {
+        text-decoration: none;
 }
 
 .logo {
