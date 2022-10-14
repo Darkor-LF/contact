@@ -1,16 +1,11 @@
 :root {/* CSS HEX */
 --rich-black-fogra-39: #000501ff;
 --shiny-shamrock: #73ab84ff;
---shiny-shamrock-var: #344E41ff;
 --medium-turquoise: #79c7c5ff;
 --powder-blue: #ade1e5ff;
-
-/* Second version*/
-    --timberwolf: #dad7cdff;
-    --laurel-green: #a3b18aff;
-    --fern-green: #588157ff;
-    --hunter-green: #3a5a40ff;
-    --brunswick-green: #344e41ff;
+--fern-green: #588157ff;
+--hunter-green: #3a5a40ff;
+--brunswick-green: #344e41ff;
 }
 
 
@@ -273,15 +268,15 @@ footer {
 }
 
 .syfy {
-	background-image: url('https://raw.githubusercontent.com/Darkor-LF/contact/main/images/rocket-launch.png');
+	background-image: url('../images/rocket-launch.png');
 }
 
 .fantasy {
-	background-image: url('https://raw.githubusercontent.com/Darkor-LF/contact/main/images/sewing-thread.png');
+	background-image: url('../images/sewing-thread.png');
 }
 
 .time-travel{
-	background-image: url('https://raw.githubusercontent.com/Darkor-LF/contact/main/images/clockwise-back.png');
+	background-image: url('../images/clockwise-back.png');
 
 }
 
