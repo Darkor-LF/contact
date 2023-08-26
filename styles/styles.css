@@ -10,9 +10,9 @@
 --light-one:#F1FFFA;
 --light-two:#CCFCCB;
 --dark-one:#464E47;
---dark-two:#568259;
+--dark-two:#547D56;
 --middle: #96E6B3;
---link:#0077b6;
+--link:#006399;
 }
 
 
@@ -74,7 +74,7 @@ header {
 .home{
     color: var(--light-one);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-left: 30px;
 }
 
@@ -104,7 +104,8 @@ nav a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--light-two);
+    font-size: 1.2rem;
+    color: var(--light-one);
 }
 
 a {
@@ -139,37 +140,8 @@ main{
     margin: 0 auto;
 }
 
-.more-info{
-    display: flex;
-    flex-direction: column;
-}
-
-.more-info button{
-    box-shadow:inset 0px 1px 0px 0px var(--dark-two);
-	background:linear-gradient(to bottom, var(--middle) 5%, var(--dark-two) 100%);
-	border-radius:6px;
-	border:2px solid var(--dark-two);
-	display:inline-block;
-	cursor:pointer;
-	font-size:1.3em;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px var(--middle);
-    margin:1rem;
-}
-.more-info button:hover {
-    background:linear-gradient(to bottom, var(--dark-two) 5%, var(--middle) 100%);
-}
-.more-info button:active {
-    position:relative;
-	top:1px;
-}
-.more-info a{
-    color:#ffffff;
-}
-.more-info a:hover{
-    text-decoration: none;
+.bio-breve{
+    text-align: center;
 }
 
 .contact {
@@ -177,10 +149,10 @@ main{
   padding: 20px;
 }
 
-.contact p{
+.contact h3{
     color: var(--dark-one);
     font-weight: 600;
-    margin-top: 0px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 1.8em;
 }
@@ -194,7 +166,7 @@ main{
 }
 .contact i{
     color:var(--dark-one);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .section-title {
@@ -357,7 +329,7 @@ footer {
 
 @media (min-width: 750px) {
     .home {
-        font-size: 1.7;
+        font-size: 2rem;
     }
 
     .cards-grid {
@@ -365,7 +337,7 @@ footer {
     }
 
     .contact i {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
 }
