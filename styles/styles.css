@@ -282,19 +282,19 @@ footer {
 }
 .cards-grid {
     max-width: 1500px;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     margin: 0 auto;
+    margin-bottom: 1.5rem;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     font-size: 1.1em;
-    
+    max-width: 1200px;
 }
 .card-grid {
   padding: 1rem;
   border: 4px double var(--dark-two);
   background-color: var(--light-two);
 }
-
 
 @media (min-width: 550px) {
     .profile-photo{
